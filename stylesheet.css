@@ -64,13 +64,13 @@
   }
   
   a {
-    color: #1772d0;
+    color: #012666; 
     text-decoration: none;
   }
   
   a:focus,
   a:hover {
-    color: #f09228;
+    color: #1772d0;
     text-decoration: none;
   }
   
@@ -81,12 +81,12 @@
   p,
   a {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
   }
   
   strong {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
   }
   
   h2 {
