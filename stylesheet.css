@@ -138,6 +138,17 @@ a:focus {
   margin: 0 0 6px;
 }
 
+.section ul li:has(.semesters) {
+  margin-bottom: 14px;
+  line-height: 1.35;
+}
+
+.section .semesters {
+  font-style: italic;
+  color: #555;
+  margin-top: 0;
+}
+
 /* ---------- Research list ---------- */
 .research-list {
   display: flex;
