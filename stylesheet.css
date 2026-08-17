@@ -157,6 +157,10 @@ a:focus {
 
 .home .contact-icons a {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
   color: var(--accent);
   text-decoration: none;
   transition: color 0.15s ease, transform 0.15s ease;
@@ -171,7 +175,10 @@ a:focus {
 .home .contact-icons svg {
   width: 18px;
   height: 18px;
+  min-width: 18px;
+  min-height: 18px;
   display: block;
+  flex: 0 0 18px;
 }
 
 .home .bio {
@@ -227,6 +234,10 @@ a:focus {
 }
 
 /* ---------- Research list ---------- */
+.research-note {
+  margin: 0 0 clamp(16px, 2vw, 24px);
+}
+
 .research-list {
   display: flex;
   flex-direction: column;
